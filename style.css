@@ -1,0 +1,99 @@
+body{
+    color: whitesmoke;
+    /*font-family: 'Bebas Neue', cursive;*/
+    font-family: 'Padauk', sans-serif;
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+#image{
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+    max-width: 100%;
+    display: block;
+}
+
+@keyframes animate{
+    25%{background-color: black;
+        color: white;
+    }
+    50%{ background-color:red;
+        color: black;
+    }
+    100%{background-color: black;
+        color: white;
+    }
+}
+
+
+#title{
+    background-color: black;
+    font-size: 6vw;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    animation-name: animate;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+figcaption{
+    color: gray;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    padding: 0px 100px;
+    font-size: 25px;
+}
+.first{
+    list-style: circle;
+}
+
+#discografia{
+    text-align: center;
+}
+li{
+    font-size: 25px;
+    padding: 0px 50px;
+}
+
+ol{
+    list-style: none;
+}
+ol li{
+    list-style: none;
+}
+
+ul{
+    list-style: none;
+}
+.titles{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+.titles2{
+    text-decoration: underline;
+}
+
+.img{
+    height: auto;
+    width: 90%;
+    padding: 0px 0px;
+    display: block;
+    margin: 0px auto;
+}
+
+.imgfooter{
+    height: auto;
+    width: 4%;
+    padding-left: 90px;
+}
+
+#footer li{
+    display: inline;
+}
